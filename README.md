@@ -1,4 +1,4 @@
-# My very snake-game
+# My very snake game
 > Intended to be able to run on any POSIX-compatible systems
 
 [![asciicast](https://asciinema.org/a/PKkI8S9RRF81nq7ko1MlanAXg.png)](https://asciinema.org/a/PKkI8S9RRF81nq7ko1MlanAXg)
