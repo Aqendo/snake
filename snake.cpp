@@ -167,19 +167,28 @@ void draw() {
     // change direction
     char c;
     cin >> c;
+    if (c == 27) {
+      // arrow keys
+      char _;
+      cin >> _ >> c;
+    }
     switch (c) {
+      case 65:
       case 'w':
         if (direction == Direction::down) break;
         direction = Direction::up;
         break;
+      case 68:
       case 'a':
         if (direction == Direction::right) break;
         direction = Direction::left;
         break;
+      case 66:
       case 's':
         if (direction == Direction::up) break;
         direction = Direction::down;
         break;
+      case 67:
       case 'd':
         if (direction == Direction::left) break;
         direction = Direction::right;
