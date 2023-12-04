@@ -16,7 +16,7 @@
 - Handles CTRL-C
 
 ## Compiling
-Ther is a CMakeLists.txt but you can compile it with just 1 command:
+There is a CMakeLists.txt but you can compile it with just 1 command:
 ```console
 $ g++ snake.cpp -o snake
 $ ./snake
