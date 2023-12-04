@@ -18,7 +18,7 @@
 ## Compiling
 There is a CMakeLists.txt but you can compile it with just 1 command:
 ```console
-$ g++ snake.cpp -o snake
+$ g++ snake.cpp --std=c++11 -o snake
 $ ./snake
 ```
 
